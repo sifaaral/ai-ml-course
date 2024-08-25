@@ -1,0 +1,239 @@
+00:29:17	Dilara Özgencigör:	Günaydın
+00:29:28	Salih B:	Günaydin hocam gecmis olsun
+00:29:29	Duygu:	Günaydın hocamm
+00:29:40	Mustafa Kayikci:	Cok gecmis olsun sayın hocam çok sevindik
+00:29:41	Duygu:	Çok geçmiş olsun
+00:29:50	hale:	Günaydın hocam çok geçmiş olsun
+00:29:50	Elif Sara:	geçmiş olsun hocam
+00:29:54	Mevlüt Talha KAFALI:	Geçmiş olsun hocam
+00:30:12	Halil Şirin:	ÇOK GEÇMİŞ OLSUN, ŞİFALAR DİLERİZ
+00:31:27	Ayla Kayabas:	:)
+00:35:09	Ayla Kayabas:	:)))
+00:35:28	Yunus Kıran:	😆😀
+00:38:56	Yunus Kıran:	float ve object ler zor gelmiştir hocam :)
+00:39:28	Ayla Kayabas:	Dost acı söyler..
+00:47:18	Ayla Kayabas:	muhteşem hocam
+00:47:32	Duygu:	Çok iyi hocam
+00:47:36	Duygu:	VaGeçmeyin :(
+00:49:14	Ayla Kayabas:	Hocam ne söyleseniz hakkınız
+00:49:35	Mustafa Kayikci:	🧿
+01:25:46	Abdullah:	hocam GAN ornegi yapacak misiniz
+01:29:59	Mustafa Kayikci:	Unu hayırlı olsun hocam
+01:30:06	Mustafa Kayikci:	unm
+01:31:35	Remziye Cigir:	Hocam küçük engelli bi kızımız vefat etti ilgilenmem lazım çıkmak zorundayım iyi dersler
+01:40:48	Zafer Acar:	from sklearn.experimental import enable_iterative_imputerfrom sklearn.impute import IterativeImputerfrom sklearn.linear_model import LinearRegression
+01:43:15	Sena TETİK:	Hocam tekrar ilk satırı gösterebilir misininz
+01:43:45	Zafer Acar:	lr=LinearRegression()imp=IterativeImputer(estimator=lr)imputed_data=imp.fit_transform(df)
+01:44:29	Duygu:	Hocam classification da boş datayı böyle doldurabilir miyiz peki B
+01:45:09	Abdullah:	hocam yalnizca linear regression mi kullanilir. yoksa ridge lasso gibi modeller de calisir mi
+01:46:52	Mevlüt Talha KAFALI:	pd.DataFrame(imputed_data2,columns=[df.columns])
+01:47:11	Şehri Altay:	pd.DataFrame(imputed_data2, columns=[df.columns])
+01:47:15	Elif Sara:	pd.DataFrame(imputed_data2, columns=[df.columns])
+01:47:17	Şehri Altay:	bnde calıstı
+01:47:19	Elif Sara:	bende böyle çalıştı
+01:53:12	Salih B:	Hata aldım
+01:54:09	Dudu Eygay:	miceforest da veriyi neyle doldurdu Hocam
+01:56:31	Yunus Kıran:	hocam ben de bir hata aldım
+01:56:52	Ufuk Yapar:	Replying to "hocam ben de bir hat..."
+
+Aynı hata mı farklı mı ?
+01:57:02	Yunus Kıran:	Replying to "hocam ben de bir hat..."
+
+farklı
+01:59:32	efeacikgoz:	Hocam miceforest tan sonrasını gösterebilir misiniz
+02:16:09	Yunus Kıran:	bu hatayı aldım
+02:16:36	Ufuk Yapar:	Replying to "{C1DB30EB-880E-4CF4-AD41-6712A2833EBC}.png"
+
+DataFrame olcak
+02:22:12	Elif Sara:	yok hocam
+02:26:55	Elif Sara:	Bu yeni oluşturduğumuz sütunlar tam olarak ne oluyor ben anlamadım
+02:27:16	Elif Sara:	içindeki değerleri nasıl kullanacağız yani
+02:29:45	Elif Sara:	burada PCA1 ilk 4ünü mü almış oluyor
+02:30:24	Elif Sara:	anladım hocam teşekkür ederim
+02:32:51	Elif Sara:	oldu :)
+02:57:49	Duygu:	Evet hocam
+02:57:57	dilara:	geldik hocam
+02:59:36	Tarık KÜREN:	Hocam, apple m1 işlemcide çalışmayan tensorflow muydu? Colab’tan mı çalışmalıyız bu kısımda?
+03:00:05	Salih B:	Benimde m1 indirdi ama
+03:00:12	Salih B:	Yinede colabmi
+03:01:03	Yunus Kıran:	bunda çalışır mı error var hocam
+03:04:34	yusuf inan:	Hocam daha yüklenmedi
+03:05:26	Ufuk Yapar:	Replying to "Hocam daha yüklenmed..."
+
+colabı deneyebilirsiniz  bilgisayarda hata veriyorsa
+03:05:47	Elif Sara:	bende de hala yüklenmedi
+03:06:00	yusuf inan:	Replying to "Hocam daha yüklenmed..."
+
+Şimdi Yüklendi
+03:11:25	Zafer Acar:	from tensorflow.keras.models import Sequentialfrom tensorflow.keras.layers import Dense
+03:24:42	Saliha:	dense
+03:24:50	Saliha:	yazmadık
+03:27:33	Zafer Acar:	model=Sequential()model.add(Dense(8,activation='relu'))model.add(Dense(8,activation='relu'))model.add(Dense(8,activation='relu'))model.add(Dense(8,activation='relu'))model.add(Dense(8,activation='relu'))model.add(Dense(1,activation='sigmoid'))model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+03:27:52	Emir Kaan Özdemir:	Hocam sayıları eski haline getirmeli miyiz
+03:28:13	mehmet:	hocam sayıları dğiştirmedik
+03:28:37	Osman Yıldırım:	hocam ekranı yaklaştırır mısınız?
+03:38:28	Bilge:	model.fit(x,y,epochs=100,batch_size=32,validation_split=20,verbose=1)NameError: name 'epochs' is not defined hatası alıyorum
+03:46:03	ELİF YAŞAR:	benimki 95e kadar çıktı hocam aynı şeyleri yazdım
+03:46:04	Esra Aykutlu:	accuracy: 0.9316 çıktı
+03:49:46	Halil Şirin:	Bende accuracy 0.66
+03:55:51	Zafer Acar:	plt.plot(history.history['accuracy'],label='Accuracy')plt.plot(history.history['val_accuracy'],label='Val_Accuracy')plt.legend()
+03:56:12	Salih B:	Accuracy ve val_accuracy farkini söylermisiniz
+03:56:16	Dudu Eygay:	evet
+03:56:28	Yunus Kıran:	çok iyi :))
+03:56:35	Tarık KÜREN:	Apple m1 işlemcili bilgisayarımla buraya kadar geldim, tensorflow sorunu çözülmüş diyebilir miyiz hocam?
+03:56:50	Ayla Kayabas:	hocam grafikte hangisi evet hangisi hayır
+03:57:24	Ayla Kayabas:	anladım hocam
+03:57:33	Ayla Kayabas:	teşekkürler
+04:02:12	yusuf inan:	teşekkürler
+04:04:20	Zafer Acar:	df=pd.read_pickle('kc_house.pkl')
+04:05:54	Zafer Acar:	x_train,x_test,y_train,y_test=train_test_split(x,y, test_size=.20,random_state=42)
+04:08:15	Faruk Berkay Dora:	pca yapabilirmiydik hocam burda ,küçültmek için
+04:10:36	Yunus Kıran:	fan şimdiden sesi arttırdı hocam :)
+04:11:08	Elif Sara:	benimki bitirdi
+04:11:11	Osman Yıldırım:	Yukarıyı Gösterirmisiniz
+04:11:36	ELİF YAŞAR:	model.fit(x_train,y_train, validation_data=(x_test,y_test),batch_size=128,epochs=300)
+04:11:38	Tarık KÜREN:	Benimkisi de hızlıca bitirmişti, kaç sn sürdüğünü nerden görebiliriz hocam?
+04:12:52	Ayfer Akova:	hata aldım
+04:13:03	Ufuk Yapar:	Replying to "hata aldım"
+
+Ara odada bakalım
+04:19:06	Tarık KÜREN:	import timeit
+
+start_time = timeit.default_timer()
+
+model.fit(x_train, y_train, validation_data=(x_test,y_test),batch_size=128,epochs=300)
+
+end_time = timeit.default_timer()
+execution_time = end_time - start_time
+
+print("Kodun çalışma süresi:", execution_time, "saniye")
+04:19:50	Tarık KÜREN:	En altta çıkıyor: “Kodun çalışma süresi: 36.171815417008474 saniye” diye
+04:20:12	UĞUR:	CPU times: total: 656 msWall time: 48.4 s
+04:20:23	UĞUR:	%time model.fit(x_train, y_train, validation_data=(x_test, y_test), batch_size=128, epochs=300)
+04:20:38	UĞUR:	import time eklemeyi unutmayin
+04:21:00	UĞUR:	CPU times: total: 656 msWall time: 48.4 ssonucun en altinda cikiyor
+04:25:46	Ayla Kayabas:	6 da başlayalım hocam
+04:26:36	dilara:	Replying to "6 da başlayalım hoca..."
+
+evet hocam sizin için daha iyi olacaksa bizim ders saatlerimizi bir saat erkene alabiliriz
+04:26:42	Salih B:	Avrupalilari da düşünelim lütfen, 6 olursa 4 de girmemiz gerekiyor
+04:26:57	Ayla Kayabas:	zaten sahur olaak
+04:27:18	Ayla Kayabas:	sizin için nasıl uygunsa hocam
+04:27:33	Ayla Kayabas:	hocam siz hasta olmayın
+04:27:47	Salih B:	Aynen size nasıl uygunsa asil önemli olan o
+04:28:02	Yunus Kıran:	haftaya son mu hocam 11-12 olarak sonrası program nedir
+04:28:29	Tarık KÜREN:	Bitti benim, 161 sn sürdü
+04:28:47	Salih B:	0.8362
+04:28:52	Salih B:	beinm
+04:29:07	Tarık KÜREN:	91285 çıktı
+04:29:08	Salih B:	Evet epochs 1500
+04:30:52	Ayla Kayabas:	:))
+04:31:24	Ayla Kayabas:	en son derste görelim hocam
+04:31:56	dilara:	Reacted to "en son derste göreli..." with 👍
+04:38:54	Zafer Acar:	pip install bing-image-downloader
+04:42:18	Tarık KÜREN:	Her resim birbirinden farklı mı peki hocam, yoksa rastgele midir?
+04:43:22	Ayla Kayabas:	süper
+04:43:56	Elif Sara:	bende bird için getirdi ama horse için getirmedi
+04:44:05	Elif Sara:	[%] No more images are available[%] Done. Downloaded 0 images. diyor
+04:44:53	Ufuk Yapar:	Replying to "[%] No more images a..."
+
+downloader.download('horse',limit=100,adult_filter_off=False)
+04:46:37	Elif Sara:	Replying to "[%] No more images a..."
+
+@Ufuk Yapar Teşekkürler
+04:47:44	Ufuk Yapar:	Reacted to "@Ufuk Yapar Teşekkür..." with 👍
+04:47:49	Ayla Kayabas:	aynı resimleri indire ihtimali yok değil mi
+04:48:47	Ayla Kayabas:	vet:)
+04:49:48	dilara:	hocam mesela sizin bird klasörünüzde 82 resim indirilmiş görünüyor, bende 72 resim var ama limit=100 yazmıştık
+04:49:51	Gülçin Karaoğlu:	bende 100 yerine 74 resim indirdi
+04:50:09	Elif Sara:	hocam iki kelime olduğunda araya _ koymak gerekiyor sanırım scincancer yazınca kabul etmedi
+04:50:22	Elif Sara:	Replying to "hocam iki kelime old..."
+
+scin_cancer yazınca oldu
+04:50:30	dilara:	hocam bird klasörünüzde 82 var
+04:50:38	Ayla Kayabas:	kuş 88 at 100 bende
+04:50:53	Elif Sara:	bende de 63 kuş 100 at indirdi
+04:51:20	Ayla Kayabas:	at olarak insan resimleri de indirmiş
+04:51:34	dilara:	Reacted to "at olarak insan resi..." with 😂
+04:51:42	Ufuk Yapar:	Reacted to "at olarak insan resi..." with 😂
+04:52:07	Elif Sara:	Reacted to "at olarak insan resi..." with 😂
+04:52:17	HALE AKIN:	"at olarak insan re..." adlı kişiye 😂 ile tepki verdi
+04:53:15	Tarık KÜREN:	Reacted to "at olarak insan resi..." with 😄
+04:53:20	yusuf inan:	Reacted to "at olarak insan resi..." with 😂
+04:53:33	Tarık KÜREN:	Reacted to "at olarak insan resi..." with 😂
+04:53:48	Zafer Acar:	(train_images,train_labels),(test_images,test_labels)=mnist.load_data()
+04:57:27	HALE AKIN:	sayı
+04:58:54	Ayla Kayabas:	evet
+04:59:34	Yunus Kıran:	önceki çalışmada tablo oluştu hocam
+05:00:13	Tarık KÜREN:	255 sayısını nerden bulduğumuzu kaçırdım
+05:00:31	Hasibe:	her bir pixel 0-255 arası
+05:00:38	Ayla Kayabas:	vet hocam
+05:00:41	Hasibe:	2 üssü 8
+05:00:52	Tarık KÜREN:	Tamam hocam
+05:00:55	Tarık KÜREN:	Teşekkür ederim
+05:02:08	Beyzanur Kavlak:	int olarak bölsek bir şey değişir mi hocam
+05:03:01	Tarık KÜREN:	Evet hocam, çok sağolun (f)
+05:03:29	Elif Sara:	min değerimiz 0 olmasaydı scale mi kullanmamız gerekirdi
+05:04:39	Beyzanur Kavlak:	int olarak bölsek bir şey değişir mi hocam
+05:05:25	Zafer Acar:	<img src=https://cdn.educba.com/academy/wp-content/uploads/2019/05/Normalization-Formula.jpg width=400>
+05:16:17	Osman Yıldırım:	Hocam Yetişemedimde kodu atar mısınız?
+05:17:23	Zafer Acar:	from tensorflow.keras.models import Sequentialfrom tensorflow.keras.layers import Dense, Conv2D, InputLayer, Reshape, MaxPooling2D, Flatten
+05:20:00	Beyzanur Kavlak:	Bunların sırası önemli mi hocam?
+05:22:47	Zafer Acar:	model=Sequential()model.add(InputLayer(input_shape=(28,28)))model.add(Reshape(target_shape=(28,28,1)))model.add(Conv2D(filters=12,kernel_size=(3,3),activation='relu'))model.add(MaxPooling2D(pool_size=(2,2)))model.add(Flatten())model.add(Dense(10)) # 10 fakli cevap classification 0-9 a kadar olan rakamlarmodel.compile(optimizer='adam',loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),metrics=['accuracy'])
+05:27:05	Elif Sara:	bende 99 çıktı
+05:27:16	Ayfer Akova:	bende %91 çıktı
+05:29:36	Mevlüt Talha KAFALI:	h5 uzantısı istiyor
+05:29:54	Mevlüt Talha KAFALI:	model.save('benimelyazmasitaniyanmodelim.h5')
+05:29:58	Halil Şirin:	h5
+05:30:12	Mücahit Sancar:	Reacted to "model.save('benimely..." with 😯
+05:30:52	Abdullah:	baya iyi hocam
+05:30:52	Osman Yıldırım:	12:02
+05:30:53	Şehri Altay:	12.02
+05:30:54	Halil Şirin:	12.02
+06:11:51	Ayla Kayabas:	hoşbulduk hocam
+06:29:50	Zafer Acar:	df = tf.keras.utils.image_dataset_from_directory('Skin_Data')
+06:31:01	Beyzanur Kavlak:	Hocam klasörleri nasıl ayarlamamız gerektiğini de anlatabilir misiniz? Örneğin resimlerde kategoriler olduğu için bu kategorileri farklı klasörlere nasıl ekleriz
+06:32:24	Abdullah:	hocam 1 tane de segmentation gosterebilir misiniz
+06:33:34	Ayla Kayabas:	:)
+06:41:35	Beyzanur Kavlak:	kodla nasıl etiketleriz hocam
+06:43:13	Ayla Kayabas:	evet hocam şimdi T3AI'le diye proje başlatıyor Selçuk bayraktar
+06:43:27	Ayla Kayabas:	large language model için
+06:55:41	Faruk Berkay Dora:	benzetmeleriniz çok iyi hocam
+06:55:45	Ayla Kayabas:	çok güzel hocam çok teşekkür ederiz
+06:57:23	Ayla Kayabas:	vet
+07:02:39	Beyzanur Kavlak:	hocam ubuntuda kamera açılmıyormuş sanırım
+07:06:12	Ayla Kayabas:	anlaştıkları şirket el altından yapar
+07:09:59	Şehri Altay:	her sey ıcın cok teşekkürler hocam
+07:10:14	Osman Yıldırım:	Reacted to "her sey ıcın cok teş..." with 👍
+07:10:15	Halil Şirin:	Sağlık durumunuz nasıl hocam? Ameliyat mı oldunuz yine?
+07:10:19	Yunus Kıran:	Olur hocam siz de çok yormayın kendinizi ☺️
+07:10:19	Ayla Kayabas:	olur tabi hocam çok teşekkür ederim
+07:10:23	Gülçin Karaoğlu:	Tekrardan çok geçmiş olsun hocam,
+07:10:50	Ufuk Yapar:	Nazar hocam
+07:11:06	Mustafa Kayikci:	Reacted to "Nazar hocam" with 👍
+07:11:09	Ayla Kayabas:	Çok üzülüyorsunuz hocam
+07:11:41	Mücahit Sancar:	Hocam  çok geçmiş olsun
+07:11:54	Ayla Kayabas:	Allahım esirgesin sizi
+07:12:00	Duygu:	Hocam nazar mı değiyor ne
+07:12:07	Faruk Berkay Dora:	Allah acil şifalar versin hocam
+07:12:10	Duygu:	Her ders verince :/
+07:13:40	ELİF YAŞAR:	nazar hocam
+07:13:44	Mustafa Kayikci:	Negatif seleksiyon..bir turkiye özeti hocam..
+07:14:03	Ayla Kayabas:	Hocam Allahım esirgesin sizi
+07:14:06	Beyzanur Kavlak:	maşallah hocam :D
+07:14:07	Duygu:	Dualarımız sizinle hocam
+07:14:09	Salih:	maşallah diyelim hocam
+07:14:09	Ayla Kayabas:	Kendinize iyi bakın
+07:14:13	Gülçin Karaoğlu:	MAŞALLAH HOCAM
+07:14:15	Gülçin Karaoğlu:	:)
+07:14:18	Abdullah:	ciddi bir korelasyon var hocam
+07:14:18	Ayla Kayabas:	Dualarımızdasınız
+07:14:22	Abdullah:	masallah hocam
+07:14:26	Salih B:	Sabah aksam derstesiniz hocam , allah kolaylık ve sağlık versin
+07:14:31	Faruk Berkay Dora:	Allah sevdiği kulları sınarmış hocam
+07:14:36	Ayfer Akova:	Geçmiş olsun hocam
+07:14:37	Beyzanur Kavlak:	nazar korelasyonu
+07:15:41	Dudu Eygay:	çok geçmiş olsun hocam
+07:16:52	Ayla Kayabas:	görüşmek üzere hocam teşekkürler
+07:16:53	Çağla DERİN ŞAHİN :	İyi akşamlar hocam
+07:17:14	Duygu:	Teşekkürler hocam
